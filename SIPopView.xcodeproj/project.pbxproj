@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83576D621907F19005980FE /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E83576D521907F19005980FE /* CustomAlertView.m */; };
+		E83576D821907F28005980FE /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E83576D721907F28005980FE /* CustomAlertView.xib */; };
 		E8E7015C218742D500CB327C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7015B218742D500CB327C /* AppDelegate.m */; };
 		E8E7015F218742D500CB327C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7015E218742D500CB327C /* ViewController.m */; };
 		E8E70162218742D500CB327C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E70160218742D500CB327C /* Main.storyboard */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E83576D421907F19005980FE /* CustomAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		E83576D521907F19005980FE /* CustomAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		E83576D721907F28005980FE /* CustomAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
 		E8E70157218742D500CB327C /* SIPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E7015A218742D500CB327C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8E7015B218742D500CB327C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +76,9 @@
 				E8E70165218742D600CB327C /* LaunchScreen.storyboard */,
 				E8E70168218742D600CB327C /* Info.plist */,
 				E8E70169218742D600CB327C /* main.m */,
+				E83576D421907F19005980FE /* CustomAlertView.h */,
+				E83576D521907F19005980FE /* CustomAlertView.m */,
+				E83576D721907F28005980FE /* CustomAlertView.xib */,
 			);
 			path = SIPopView;
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 			files = (
 				E8E70167218742D600CB327C /* LaunchScreen.storyboard in Resources */,
 				E8E70164218742D600CB327C /* Assets.xcassets in Resources */,
+				E83576D821907F28005980FE /* CustomAlertView.xib in Resources */,
 				E8E70162218742D500CB327C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +166,7 @@
 				E8E7017A218743E600CB327C /* SIPopView.m in Sources */,
 				E8E7015F218742D500CB327C /* ViewController.m in Sources */,
 				E8E7016A218742D600CB327C /* main.m in Sources */,
+				E83576D621907F19005980FE /* CustomAlertView.m in Sources */,
 				E8E7015C218742D500CB327C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
