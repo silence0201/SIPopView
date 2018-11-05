@@ -69,7 +69,7 @@
         
         [UIView animateWithDuration:duration animations:^{
             weakSelf.alpha = 1.0;
-            if ([weakSelf isTransparent]) {
+            if (![weakSelf isTransparent]) {
                 weakSelf.backgroundView.alpha = weakSelf.popBGAlpha;
             }
         }];
